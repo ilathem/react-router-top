@@ -1,5 +1,5 @@
 // need to use Link to avoid reloading the page
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const App = () => (
   <div>
@@ -8,11 +8,11 @@ const App = () => (
     <nav>
       <ul>
         <li>
-          <Link to="profile">Profile page</Link>
+          <Link to='profile'>Profile page</Link>
         </li>
       </ul>
     </nav>
   </div>
-)
+);
 
 export default App;
