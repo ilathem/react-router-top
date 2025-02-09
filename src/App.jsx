@@ -1,3 +1,6 @@
+// need to use Link to avoid reloading the page
+import { Link } from "react-router-dom";
+
 const App = () => (
   <div>
     <h1>Hello from the main page of the app!</h1>
@@ -5,7 +8,7 @@ const App = () => (
     <nav>
       <ul>
         <li>
-          <a href="profile">Profile page</a>
+          <Link to="profile">Profile page</Link>
         </li>
       </ul>
     </nav>
