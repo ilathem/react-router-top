@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const App = () => (
   <div>
     <h1>Hello from the main page of the app!</h1>
-    <p>Here are some exapmles fo links to other pages</p>
+    <p>Here are some exapmles of links to other pages</p>
     <nav>
       <ul>
         <li>
