@@ -6,7 +6,7 @@ import Popeye from './Popeye';
 const Profile = () => {
   // use params to get url parameters (defined in main.jsx as
   // dynamic route segment)
-  const { name } = useParams();
+  const { '*': splat } = useParams();
 
   return (
     <div>
@@ -14,9 +14,9 @@ const Profile = () => {
       <p>So, how are you?</p>
       <hr />
       <h2>The profile visited is here:</h2>
-      {name === 'popeye' ? (
+      {splat === 'popeye' ? (
         <Popeye />
-      ) : name === 'spinach' ? (
+      ) : splat === 'spinach' ? (
         <Spinach />
       ) : (
         <DefaultProfile />

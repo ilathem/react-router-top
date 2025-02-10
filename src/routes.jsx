@@ -14,7 +14,7 @@ const routes = [
         errorElement: <ErrorPage />,
     },
     {
-        path: 'profile/:name',
+        path: 'profile/*',
         element: <Profile />,
     },
 ];
