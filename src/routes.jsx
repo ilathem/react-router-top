@@ -6,6 +6,7 @@
 import App from "./App";
 import Profile from "./Profile";
 import ErrorPage from "./ErrorPage";
+import Blog from "./Blog";
 
 const routes = [
     {
@@ -16,6 +17,10 @@ const routes = [
     {
         path: 'profile/*',
         element: <Profile />,
+    },
+    {
+        path: 'blog/*',
+        element: <Blog />,
     },
 ];
 

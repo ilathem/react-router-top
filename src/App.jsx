@@ -10,6 +10,9 @@ const App = () => (
         <li>
           <Link to='profile'>Profile page</Link>
         </li>
+        <li>
+          <Link to="blog">Blog Posts</Link>
+        </li>
       </ul>
     </nav>
   </div>
